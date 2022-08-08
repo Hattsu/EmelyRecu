@@ -21,7 +21,7 @@ namespace recuperacion
             Console.WriteLine("......................")
 
             var orden3=new chile();
-            Console.WriteLine($"el precio del chile:{orden2.calcularPrecioTotal()}");
+            Console.WriteLine($"el precio del chile:{orden3.calcularPrecioTotal()}");
             var sinChile=new sinChile(orden3);
             Console.WriteLine($"el precio del sinchile es:{sinchile.calculaPrecioTotal()}");
             Console.WriteLine("");
